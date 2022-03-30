@@ -94,6 +94,11 @@ body {
     float: left;
 }
 
+img {
+    height: 100vh;
+    object-fit: cover;
+}
+
 
 /* Otras clases */
 
@@ -118,5 +123,8 @@ body {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
+    }
+    .column-desc {
+        display: none;
     }
 }
